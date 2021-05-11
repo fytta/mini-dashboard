@@ -1,0 +1,12 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.toolbar-link {
+    font-size: 20px;
+}

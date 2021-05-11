@@ -1,0 +1,18 @@
+
+<mat-grid-list cols="4" rowHeight="{{windowSize.height/3}}px" [gutterSize]="'5px'">
+  <mat-grid-tile id="list-tile" [colspan]=2 [rowspan]=3>
+    <div class="lst">
+      <app-table-list></app-table-list>
+    </div>
+      
+  </mat-grid-tile>
+
+  <mat-grid-tile id="chart-tile" [colspan]=2 [rowspan]=2>
+    <app-release-chart [view]="viewRelease"></app-release-chart>
+  </mat-grid-tile>
+
+  <mat-grid-tile id="stock-tile" [colspan]=2 [rowspan]=1>
+    <app-stock-chart [view]="viewStock"></app-stock-chart>
+  </mat-grid-tile>
+
+</mat-grid-list>

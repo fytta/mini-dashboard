@@ -1,0 +1,20 @@
+mat-grid-list {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#list-tile {
+    background: rgb(255, 255, 255);
+}
+
+#chart-tile {
+    background: rgb(255, 255, 255);
+}
+
+#stock-tile {
+    background: rgb(255, 255, 255);
+}
+
+#info-tile {
+    background: rgb(255, 255, 255);
+}
