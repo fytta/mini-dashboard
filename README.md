@@ -1,6 +1,6 @@
 # MINI-DASHBOARD
 Basic dashboard application implemented with Angular11, Angular Material, Nodejs and GraphQL  
-Deployed in [Heroku](https://mini-dashboard-ng.herokuapp.com/)
+[Deployed in Heroku](https://mini-dashboard-ng.herokuapp.com/)
 
 ## Client
 - Angular frontend
