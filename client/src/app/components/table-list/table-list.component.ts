@@ -27,7 +27,6 @@ export class TableListComponent implements OnInit{
   dataSource: MatTableDataSource<Film>;
   expandedElement: string | null;
   films: Film[];
-  windowH: number = window.innerHeight;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;

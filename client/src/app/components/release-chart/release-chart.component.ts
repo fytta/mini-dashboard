@@ -1,7 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Apollo, gql } from 'apollo-angular';
 import { single } from './data';
-import { FilmYear } from '../../models/filmYear';
 
 @Component({
   selector: 'app-release-chart',
